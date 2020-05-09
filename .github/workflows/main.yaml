@@ -31,3 +31,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+
+    - name: Run demo.py file
+      run: |
+        python3 demo.py
+        echo "success!"
